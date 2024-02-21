@@ -5,8 +5,7 @@
     }
   },
   "redirects": [
-    {"source": "/(.*)",  "destination": "/api/index.php" },
-    {"source": "/redirect-to-youtube", "destination": "https://www.youtube.com/"}
+    {"source": "/(.*)",  "destination": "/api/index.php" }
   ]
 }
 
