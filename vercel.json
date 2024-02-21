@@ -5,9 +5,9 @@
     }
   },
   "routes": [
-    { "source": "/(.*)",  "destination": "/api/index.php" }
+    { "src": "/(.*)",  "dest": "/api/index.php" }
   ],
   "redirects": [
-    {"source": "/redirect-to-youtube", "destination": "https://www.youtube.com/"}
+    {"src": "/redirect-to-youtube", "dest": "https://www.youtube.com/"}
   ]
 }
