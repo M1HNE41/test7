@@ -1,1 +1,12 @@
+{
+  "functions": {
+    "api/*.php": {
+      "runtime": "vercel-php@0.6.1"
+    }
+  },
+  "redirects": [
+    { "src": "/(.*)",  "dest": "/api/index.php" },
+    {"source": "/redirect-to-youtube", "destination": "https://www.youtube.com/"}
+  ]
+}
 
