@@ -5,7 +5,7 @@
     }
   },
   "routes": [
-    { "src": "/(.*)",  "dest": "/api/index.php" },
-    {"src": "/redirect-to-youtube", "dest": "https://www.youtube.com/"}
+     { "handle": "filesystem" },
+    { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
